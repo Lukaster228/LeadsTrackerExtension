@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+#input-el {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid green;
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+    outline: none;
+    display: block;
+}
+
+#input-el:focus {
+    background-color: lightblue;
+}
+
+#input-btn-el, #save-btn-el {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+#input-btn-el:hover, #save-btn-el:hover {
+    cursor: pointer;
+    background-color: rgb(0, 112, 0);   
+}
+
+#delete-btn-el {
+    border: 1px solid green;
+    background-color: white;
+    padding: 9px 20px;
+    color: green;
+    font-weight: bold;
+}
+
+#delete-btn-el:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    padding-bottom: 7px;
+}
+
+a {
+    color: green;
+}
